@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-logo {
+  flex-grow: 1;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  text-decoration: "none";
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+
+}
+
+/******************************** dashboard table styling css *********************/
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+  border-radius: 8px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #ddd;
+}
+
+th {
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+/* Style the table borders */
+
+table th,
+table td {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #ebe9e9;
+}
+
+th {
+  text-align: left;
+}
+
+thead {
+  border-bottom: 1px solid #ddd;
+}
+
+thead .main-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px;
+  color: rgb(90, 90, 90);
+}
+
+thead th {
+  color: rgb(90, 90, 90);
+}
+
+thead div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+tr td {
+  color: grey;
+}
+
+/**********************************************************************************/
+
+/********************************************* Ads card styling **************************************/
+
+.label {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 300px;
+  text-align: center;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 40px;
+}
+
+/**************************** Form styling  *************************/
+
+.form-wrapper {
+  padding: 40px;
+}
+
+.user-data-form-container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-form-heading {
+  font-weight: 600;
+  color: #696969;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.form-group-input {
+  width: 550px;
+}
+
+.form-group-input-last {
+  width: 1200px;
+}
+
+.form-group-input input {
+  margin-bottom: 20px;
+}
+
+.form-group-input textarea {
+  height: 108px;
+  width: 550px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  /* font-weight: bold; */
+  margin-bottom: 5px;
+  color: #696969;
+}
+
+label select {
+  color: #696969;
+}
+
+label select option {
+  color: #696969;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.back {
+  padding: 8px 18px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.last-div {
+  align-self: flex-end;
+}

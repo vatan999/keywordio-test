@@ -1,0 +1,23 @@
+[
+    {
+        "group": "Male",
+        "clicks": 712,
+        "cost": 4272,
+        "conversions": 8,
+        "revenue": 16568
+    },
+    {
+        "group": "Female",
+        "clicks": 3961,
+        "cost": 4278,
+        "conversions": 321,
+        "revenue": 10567
+    },
+    {
+        "group": "Unknown",
+        "clicks": 4132,
+        "cost": 2987,
+        "conversions": 189,
+        "revenue": 6321
+    }
+]
